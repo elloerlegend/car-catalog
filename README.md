@@ -1,3 +1,9 @@
+Скриншот с хоста
+<img width="974" height="1044" alt="{3751050E-81A7-4A97-B26A-2CAF8ED37F0F}" src="https://github.com/user-attachments/assets/ca4bb477-2a4b-4795-bec6-2812713cd07a" />
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
