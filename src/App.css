@@ -1,38 +1,88 @@
 .App {
-  text-align: center;
+  padding: 30px;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th, td {
+  border: 1px solid #e07ad39c;
+  padding: 8px;
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+th {
+  background-color: #e0d0d0;
+}
+
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  padding: 0 40px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+button {
+  margin-top: 4px;
+  padding: 12px 20px;
+  
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color:hsla(0,0%,100%,1);
+background-image:
+radial-gradient(at 86% 97%, hsla(18,2%,87%,1) 0px, transparent 50%),
+radial-gradient(at 79% 0%, hsla(187,64%,87%,1) 0px, transparent 50%),
+radial-gradient(at 0% 50%, hsla(355,100%,93%,1) 0px, transparent 50%),
+radial-gradient(at 96% 34%, hsla(340,83%,80%,1) 0px, transparent 50%),
+radial-gradient(at 0% 100%, hsla(10,0%,81%,1) 0px, transparent 50%),
+radial-gradient(at 80% 100%, hsla(240,14%,91%,1) 0px, transparent 50%),
+radial-gradient(at 0% 0%, hsla(342,0%,81%,1) 0px, transparent 50%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+body {
+  margin: 0;
+  padding: 150px;
+  font-family: Arial, sans-serif;
+  background-color: hsla(0,100%,50%,1);
+  background-image:
+    radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(355,100%,93%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(340,100%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(22,100%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
 }
+
+h2{
+  font-size: 45px;
+  margin-bottom: 10px;
+  color: #eecdcd;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    opacity: 0.9;
+}
+h1{
+  font-size: 45px;
+  margin-bottom: 10px;
+  color: #eecdcd;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    opacity: 0.9;
+}
+
